@@ -1,0 +1,68 @@
+#menu,
+#game {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-image: url("assets/city2.jpg");
+
+}
+
+#menu {
+	z-index: 1;
+	font-size: 4em;
+	font-family: sans serif;
+	text-align: center;
+}
+
+#menu h1 {
+	font-family: 'Luckiest Guy', cursive;
+	color: rgb(199, 0, 0);
+	letter-spacing: 0.2em;
+	text-shadow: 12px 2px black;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f2d818+46,fefcea+100,fefcea+101&1+27,0+56 */
+	background: -moz-radial-gradient(center, ellipse cover, rgba(242, 216, 24, 1) 27%, rgba(242, 216, 24, 0.34) 46%, rgba(244, 223, 63, 0) 56%, rgba(254, 252, 234, 0) 100%, rgba(254, 252, 234, 0) 101%);
+	/* FF3.6-15 */
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(242, 216, 24, 1) 27%, rgba(242, 216, 24, 0.34) 46%, rgba(244, 223, 63, 0) 56%, rgba(254, 252, 234, 0) 100%, rgba(254, 252, 234, 0) 101%);
+	/* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(ellipse at center, rgba(242, 216, 24, 1) 27%, rgba(242, 216, 24, 0.34) 46%, rgba(244, 223, 63, 0) 56%, rgba(254, 252, 234, 0) 100%, rgba(254, 252, 234, 0) 101%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f2d818', endColorstr='#00fefcea', GradientType=1);
+	/* IE6-9 fallback on horizontal gradient */
+	margin-top: -3%;
+
+}
+
+#menu.hidden {
+	display: none;
+}
+
+#menu .button {
+	font-size: 50px;
+	font-weight: 800;
+	height: 60px;
+	width: 150px;
+	border-radius: 25px;
+	background: blue;
+	margin: auto;
+	margin-top: -60px;
+	color: white;
+	cursor: pointer;
+}
+
+#menu .button p {
+	margin-top: -60px;
+}
+
+#menu .button:hover {
+	background: #00C;
+}
+
+#menu img {
+	margin-top: 1%;
+}
+
+.sup {
+	height: 500px;
+}
